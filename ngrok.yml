@@ -1,0 +1,10 @@
+version: "2"
+authtoken: <Your authtoken here>
+tunnels:
+    web:
+        proto: http
+        addr: <forwarding port>
+    ssh:
+        proto: tcp
+        addr: 22
+log: <full location to the cloned location>/ngrok.log
